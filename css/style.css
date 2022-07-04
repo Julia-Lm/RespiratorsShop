@@ -1,6 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Rubik:wght@400;
-
-500;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap);
 @charset "UTF-8";
 * {
@@ -230,14 +228,14 @@ h6 {
   border: 1px solid #1b5fc1;
   padding: 0.5rem 1.5rem;
   border-radius: 0.5rem;
-  -webkit-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
 }
 
 .button:hover {
   cursor: pointer;
   background-color: rgba(27, 96, 193, 0.8392156863);
+  -webkit-transition: background-color 0.3s ease 0s;
+  -o-transition: background-color 0.3s ease 0s;
+  transition: background-color 0.3s ease 0s;
 }
 
 .button_yellow {
