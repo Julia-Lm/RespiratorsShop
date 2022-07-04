@@ -1862,6 +1862,10 @@ h6 {
     padding-top: 7.5rem;
   }
 
+  .head__body_shop {
+    padding-top: 4.375rem;
+  }
+
   .head__content {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
@@ -1897,7 +1901,7 @@ h6 {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 48%;
             flex: 0 0 48%;
-    margin-top: 60px;
+    margin-top: 0;
     gap: 0;
   }
 
@@ -1933,6 +1937,7 @@ h6 {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
+    padding: 10px 20px 30px;
   }
 
   .wychooseus__title {
