@@ -1897,7 +1897,8 @@ h6 {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 48%;
             flex: 0 0 48%;
-    margin-top: 0;
+    margin-top: 60px;
+    gap: 0;
   }
 
   .body__image {
@@ -1910,6 +1911,12 @@ h6 {
             order: -1;
   }
 
+  .body__image_shop {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+  }
+
   .body__content {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
@@ -1920,6 +1927,12 @@ h6 {
   .body__content_title {
     font-size: 1.75rem;
     line-height: 2.1875rem;
+  }
+
+  .body__content_shop {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
   }
 
   .wychooseus__title {
